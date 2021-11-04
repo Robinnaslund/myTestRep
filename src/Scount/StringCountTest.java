@@ -105,7 +105,7 @@ public class StringCountTest {
 
     }
 
-   /* @Test
+    @Test
     public void testIsStop() {
         //Arange
 
@@ -126,7 +126,7 @@ public class StringCountTest {
 
     }
 
-    */
+
     @Test
     public void testIsNotStop() {
         //Arange
