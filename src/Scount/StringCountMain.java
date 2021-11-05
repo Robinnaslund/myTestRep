@@ -12,8 +12,8 @@ public class StringCountMain {
 
         while (!sc.getStop()) {
             String text = scan.nextLine();
-            System.out.println(sc.countCharacters(text));
-            System.out.println(sc.CountRows(text));
+           sc.CountRows(text);
+           sc.countCharacters(text);
             sc.isInputStop(text);
             if (sc.getStop()) {
                 System.out.println("Du har skrivit " + sc.numberCharacters() + " tecken");

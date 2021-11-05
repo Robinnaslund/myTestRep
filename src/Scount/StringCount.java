@@ -29,10 +29,10 @@ public class StringCount {
 
     public int CountRows(String inputText) {
         if (inputText.equals("stop")){
-            stop = true;
+           stop = true;
         }else{
         Rows = Rows +1;
-        }
+       }
 
         return Rows;
     }
