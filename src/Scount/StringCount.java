@@ -50,6 +50,7 @@ public class StringCount {
     public void isInputStop(String Text) {
         stop = Text.equals("stop");
 
+
     }
     public boolean getStop() {
 

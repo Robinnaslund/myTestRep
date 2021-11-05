@@ -10,7 +10,7 @@ public class StringCountMain {
         Scanner scan = new Scanner(System.in);
         System.out.println("Vänligen skriv en text:");
 
-        while (true) {
+        while (!sc.getStop()) {
             String text = scan.nextLine();
             System.out.println(sc.countCharacters(text));
             System.out.println(sc.CountRows(text));
@@ -18,7 +18,7 @@ public class StringCountMain {
             if (sc.getStop()) {
                 System.out.println("Du har skrivit " + sc.numberCharacters() + " tecken");
                 System.out.println("Och " + sc.numberRows() + " rader.");
-                break;
+
 
 
 
